@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Tate's Example 3</title>
+</head>
+<body>
+    <h1><a href="/">Link to Start Page</a></h1>
+    <h2>Victoria Tate's Example 3</h2>
+    <h3>New Articles</h3>
+
+    <form action="/articles" method="POST">
+        <label for="title">Article Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="content">Article Content:</label>
+        <textarea id="content" name="content" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit Article</button>
+    </form>
+    
+    <p id="message"></p>
+    <script src="/public/ex3.js"></script>
+</body>
+</html>
